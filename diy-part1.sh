@@ -16,6 +16,14 @@
 # Add a feed source
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
 sed -i '$a src-git hello https://github.com/fw876/helloworld' feeds.conf.default
+sed -i '$a src-git jerry  https://github.com/jerrykuku/lua-maxminddb.git' feeds.conf.default
+sed -i '$a src-git appssr https://github.com/jerrykuku/luci-app-vssr.git' feeds.conf.default
+sed -i '$a src-git smart https://github.com/menglihuan/smartdns' feeds.conf.default
+sed -i '$a src-git adgurd https://github.com/menglihuan/adgurdhome' feeds.conf.default
+
+
+
+
 
 
 
